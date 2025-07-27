@@ -93,6 +93,12 @@
     max-width: 420px;
 }
 
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
 .auth-buttons {
     display: flex;
     align-items: center;

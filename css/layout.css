@@ -93,6 +93,12 @@
     max-width: 420px;
 }
 
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
 .content-wrapper {
     flex: 1;
     padding: 0 var(--spacing-lg) var(--spacing-lg);

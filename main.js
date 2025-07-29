@@ -72,16 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
     showSignupBtn.addEventListener("click", function () {
         showSignupForm();
     });
-
-    // Prevent form submission for demo purposes
-    document.querySelectorAll(".auth-form-content").forEach((form) => {
-        form.addEventListener("submit", function (e) {
-            e.preventDefault();
-
-            console.log("Form submitted");
-            // TODO: Implement form submission logic here
-        });
-    });
 });
 
 // User Menu Dropdown Functionality
